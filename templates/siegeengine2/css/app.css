@@ -1,0 +1,76 @@
+/* line 6, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.menu_principale {
+  margin: 50px 0 0 auto;
+  width: 70%;
+}
+/* line 9, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.menu_principale ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 12, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.menu_principale ul li a {
+  color: #383838;
+  font-size: 0.5em;
+}
+/* line 16, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.menu_principale ul li a:hover {
+  color: #19B7D1;
+}
+
+/* line 20, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.menu_principale ul li.item-101 {
+  display: none;
+}
+
+/* line 22, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+section.row:first-of-type {
+  width: 60%;
+  margin-top: 30px;
+}
+
+/* line 27, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.logo {
+  float: left;
+  width: 150px;
+}
+
+/* NB: SPOSTARE I TWIRL ADESSO IN LEFT & RIGHT ALL' INTERNO DI HOMEPAGE X ELIMINARE WIDTH > 100% E MARGIN NEGATIVI QUI SOTTO!!! */
+/* line 34, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+#slogan {
+  font-size: 2em;
+  width: 125%;
+  margin-left: -15%;
+}
+/* line 38, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+#slogan strong {
+  color: #19b7d1;
+}
+
+/* line 41, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.bottoni {
+  width: 300%;
+  margin-left: -79%;
+}
+/* line 44, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+.bottoni img {
+  display: inline-block;
+}
+
+/* line 47, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+footer {
+  margin: 0;
+  max-width: 100% !important;
+  background-color: #373938;
+  color: #6f6f6f;
+}
+/* line 52, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+footer h4 {
+  text-align: center;
+  font-size: 0.8em;
+}
+/* line 56, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
+footer p {
+  text-align: justify;
+  font-size: 0.6em;
+}

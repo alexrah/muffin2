@@ -1,0 +1,60 @@
+
+$blues: #19B7D1;
+$menu-color: #383838;
+
+
+.menu_principale {
+  margin: 50px 0 0 auto;
+  width: 70%;
+  ul li {
+  display: inline-block;
+  margin-right: 10px;
+  a {
+    color: #383838;
+    font-size: 0.5em;
+  }
+  a:hover{ color: #19B7D1; }
+  }
+}
+
+.menu_principale ul li.item-101 { display: none; }
+
+section.row:first-of-type {
+  width: 60%;
+  margin-top: 30px;
+}
+
+.logo {
+  float: left;
+  width: 150px;
+}
+
+/* NB: SPOSTARE I TWIRL ADESSO IN LEFT & RIGHT ALL' INTERNO DI HOMEPAGE X ELIMINARE WIDTH > 100% E MARGIN NEGATIVI QUI SOTTO!!! */
+
+#slogan {
+  font-size: 2em;
+  width: 125%;
+  margin-left: -15%;
+  strong { color: $blues; }
+}
+
+.bottoni {
+  width: 300%;
+  margin-left: -79%;
+  img { display: inline-block; }
+}
+
+footer {
+  margin: 0;
+  max-width: 100% !important;
+  background-color: #373938;
+  color: #6f6f6f;
+  h4 {
+    text-align: center;
+    font-size: 0.8em;
+  }
+  p {
+  text-align: justify;
+  font-size: 0.6em;
+}
+}
