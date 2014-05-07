@@ -30,24 +30,7 @@ $info = $this->item->params->get('info_block_position', 0);
 				<?php endif; ?>
 			</ul>
 	<?php endif; ?>
-	<?php if ($params->get('show_title')) : ?>
-		<header>
-			<h1>
-				<?php if ($params->get('link_titles') && $params->get('access-view')) : ?>
-				<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid)); ?>" title="<?php echo $this->escape($this->item->title); ?>"> <?php echo $this->escape($this->item->title); ?></a>
-				<?php else : ?>
-				<?php echo $this->escape($this->item->title); ?>
-				<?php endif; ?>
-			</h1>
-		</header>
-	<?php endif; ?>
-	<?php if ($this->item->state == 0): ?>
-		<div class="label label-warning"><?php echo JText::_('JUNPUBLISHED'); ?></div>
-	<?php endif; ?>
-	<?php // to do not that elegant would be nice to group the params ?>
-	<?php $useDefList = (($params->get('show_modify_date')) or ($params->get('show_publish_date'))
-		or ($params->get('show_hits'))); ?>
-	<?php if ($useDefList AND ($info == 0 OR $info == 2)) : ?>
+
 		<footer class="article-info">
 			<ul class="inline">
 		<?php if ($params->get('show_author') && !empty($this->item->author )) : ?>
@@ -107,6 +90,26 @@ $info = $this->item->params->get('info_block_position', 0);
 				</ul>
 		<?php endif; ?>
 		</footer>
+
+
+	<?php if ($params->get('show_title')) : ?>
+		<header>
+			<h1>
+				<?php if ($params->get('link_titles') && $params->get('access-view')) : ?>
+				<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid)); ?>" title="<?php echo $this->escape($this->item->title); ?>"> <?php echo $this->escape($this->item->title); ?></a>
+				<?php else : ?>
+				<?php echo $this->escape($this->item->title); ?>
+				<?php endif; ?>
+			</h1>
+		</header>
+	<?php endif; ?>
+	<?php if ($this->item->state == 0): ?>
+		<div class="label label-warning"><?php echo JText::_('JUNPUBLISHED'); ?></div>
+	<?php endif; ?>
+	<?php // to do not that elegant would be nice to group the params ?>
+	<?php $useDefList = (($params->get('show_modify_date')) or ($params->get('show_publish_date'))
+		or ($params->get('show_hits'))); ?>
+	<?php if ($useDefList AND ($info == 0 OR $info == 2)) : ?>
 	<?php endif; ?>
 <div class="article-body">
 	<?php if (!$params->get('show_intro')) : ?>

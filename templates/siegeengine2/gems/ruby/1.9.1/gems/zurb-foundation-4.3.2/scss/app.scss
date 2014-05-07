@@ -1,6 +1,7 @@
 
 $blues: #19B7D1;
 $menu-color: #383838;
+$light-grey: #6f6f6f;
 
 
 .menu_principale {
@@ -29,6 +30,9 @@ section.row:first-of-type {
   width: 150px;
 }
 
+
+.sidebar { display: none; }
+
 /* NB: SPOSTARE I TWIRL ADESSO IN LEFT & RIGHT ALL' INTERNO DI HOMEPAGE X ELIMINARE WIDTH > 100% E MARGIN NEGATIVI QUI SOTTO!!! */
 
 #slogan {
@@ -39,9 +43,38 @@ section.row:first-of-type {
 }
 
 .bottoni {
-  width: 300%;
-  margin-left: -79%;
+  /* width: 300%; */
+  /* margin-left: -79%; */
+  text-align: center;
   img { display: inline-block; }
+}
+
+.side_bottone {
+  float: right;
+  margin: 40px -10px 0 0;
+}
+
+/** APPENA SFORNATI */
+
+footer.article-info {
+  background-color: transparent;
+  border-top: dashed 0.15em $menu-color;
+  border-bottom: dashed 0.15em $menu-color;
+  color: $menu-color;
+  font-size: 0.8em;
+  ul { margin-bottom: 0px; }
+  li { list-style: none; }
+}
+
+.blog .article-body > img { width: 100%; }
+.blog .article-body p { 
+  color: $menu-color;
+  margin-top: 10px;
+}
+
+header >h1 { 
+  font-size: 1.5em;
+  color: $menu-color;
 }
 
 footer {
@@ -57,4 +90,8 @@ footer {
   text-align: justify;
   font-size: 0.6em;
 }
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar { display: block; }
 }

@@ -17,6 +17,7 @@ include_once JPATH_THEMES . '/' . $this->template . '/framework.php';
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/foundation.css" />
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/app.css" />
     <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/custom.modernizr.js"></script>
+<script type="text/javascript" src="http://fast.fonts.net/jsapi/d9cef1f7-1694-4715-8884-f574bafcd1ac.js"></script>
       <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
