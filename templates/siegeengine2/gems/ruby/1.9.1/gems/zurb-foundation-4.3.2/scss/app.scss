@@ -5,7 +5,7 @@ $light-grey: #6f6f6f;
 
 
 .menu_principale {
-  margin: 50px 0 0 auto;
+  margin: 100px 0 0 auto;
   width: 70%;
   ul li {
   display: inline-block;
@@ -21,13 +21,14 @@ $light-grey: #6f6f6f;
 .menu_principale ul li.item-101 { display: none; }
 
 section.row:first-of-type {
-  width: 60%;
+  /* width: 60%; */
+  width: 45%;
   margin-top: 30px;
 }
 
 .logo {
   float: left;
-  width: 150px;
+  width: 100px;
 }
 
 
@@ -36,9 +37,10 @@ section.row:first-of-type {
 /* NB: SPOSTARE I TWIRL ADESSO IN LEFT & RIGHT ALL' INTERNO DI HOMEPAGE X ELIMINARE WIDTH > 100% E MARGIN NEGATIVI QUI SOTTO!!! */
 
 #slogan {
-  font-size: 2em;
+  font-size: 1.5em;
   width: 125%;
   margin-left: -15%;
+  margin-bottom: 0px; 
   strong { color: $blues; }
 }
 
@@ -82,6 +84,9 @@ footer {
   max-width: 100% !important;
   background-color: #373938;
   color: #6f6f6f;
+  .moduletable .footer > .row {
+    margin: 0 auto;
+  }
   h4 {
     text-align: center;
     font-size: 0.8em;
@@ -92,6 +97,23 @@ footer {
 }
 }
 
+.footer .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 @media only screen and (min-width: 768px) {
   .sidebar { display: block; }
+  .menu_principale {
+    margin: 50px 0 0 auto;
+  }
 }
+
+@media only screen and (min-width: 1300px) and (max-width: 1700px ) {
+  section.row:first-of-type { width: 35%; }
+}
+
+@media only screen and (min-width: 1700px) {
+  section.row:first-of-type { width: 31%; }
+}
+
