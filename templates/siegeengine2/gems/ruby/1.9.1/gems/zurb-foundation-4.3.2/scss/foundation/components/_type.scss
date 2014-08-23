@@ -1,3 +1,28 @@
+/** INSTALL GOTHAM FONT */
+@font-face
+{
+  font-family: GothamLight;
+  src: url('../fonts/gothamlight.eot');  /* fix IE not working with if ttf is the default format */
+  src: url('../fonts/gothamlight.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gothamlight.woff') format('woff'),
+            url('../fonts/gothamlight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+          }
+
+@font-face
+{
+  font-family: GothamLight;
+  src: url('../fonts/gothammedium.eot');  /* fix IE not working with if ttf is the default format */
+  src: url('../fonts/gothammedium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gothammedium.woff') format('woff'),
+            url('../fonts/gothammedium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+          }
+
+
+
 //
 // Typography Variables
 //
@@ -33,7 +58,8 @@ $small-font-size: 60% !default;
 $small-font-color: lighten($header-font-color, 30%) !default;
 
 // We use these to style paragraphs
-$paragraph-font-family: inherit !default;
+/* $paragraph-font-family: inherit !default; */
+$paragraph-font-family: "GothamLight";
 $paragraph-font-weight: normal !default;
 $paragraph-font-size: 1em !default;
 $paragraph-line-height: 1.6 !default;

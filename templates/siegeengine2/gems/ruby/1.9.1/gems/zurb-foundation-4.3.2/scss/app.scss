@@ -9,7 +9,7 @@ $light-grey: #6f6f6f;
   width: 80%;
   ul li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
   line-height: 2.6;
   a {
     color: #383838;
@@ -28,7 +28,10 @@ $light-grey: #6f6f6f;
     /* background-position: 0% -14px; */
   }
 
-    .item-106.current { background-size: 186%;}
+    .item-102.current { background-size: 90%; }
+    .item-105.current { background-size: 122%; }
+    .item-106.current { background-size: 182%;}
+    .item-109.current { background-size: 160%;}
 
 
 .menu_principale ul li.item-101 { display: none; }
@@ -77,14 +80,27 @@ section.row:first-of-type {
 
 
 /** THE MENU */
-.menu {
-  li {
-    list-style-type: none;
-    line-height: 18px;
-   
-  }
+.menu h4 { font-family: 'BaskervilleClassicoW00- 867311';
+  font-size: 2em;
 }
 
+.menu h4.dolci { color: #A87B35; }
+.menu h4.te { color: #9C71AB; }
+.menu h4.lunch { color: #BBD26D; }
+.menu h4.cioccolate { color: #004E71; }
+.menu h4.bevande { color: #008FCA; }
+.menu li {
+  list-style-type: none;
+  line-height: 18px;
+}
+
+#credits {
+  font-size: 0.5em;
+  margin: -15px 10px 0;
+  float: right;
+}
+
+iframe { border: 0px; }
 
 
 /** SIDE BOTTONE */
@@ -161,7 +177,7 @@ footer {
   .menu_principale {
     margin: 30px 0 0 auto;
   }
-  footer li, footer h4 { text-align: justify; }
+  footer li, footer h4 { text-align: left; }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1700px ) {
