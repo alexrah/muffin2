@@ -6,17 +6,30 @@ $light-grey: #6f6f6f;
 
 .menu_principale {
   margin: 100px 0 0 auto;
-  width: 70%;
+  width: 80%;
   ul li {
   display: inline-block;
   margin-right: 10px;
+  line-height: 2.6;
   a {
     color: #383838;
     font-size: 0.5em;
+    vertical-align: bottom;
   }
   a:hover{ color: #19B7D1; }
   }
 }
+
+
+ .current{
+    background: url('../images/indicatore_pagina.png') no-repeat;
+    background-size: 100%;
+    /* background-position: 0% -200%; */
+    /* background-position: 0% -14px; */
+  }
+
+    .item-106.current { background-size: 186%;}
+
 
 .menu_principale ul li.item-101 { display: none; }
 
@@ -29,6 +42,7 @@ section.row:first-of-type {
 .logo {
   float: left;
   width: 100px;
+  margin-right: 5px;
 }
 
 
@@ -50,6 +64,30 @@ section.row:first-of-type {
   text-align: center;
   img { display: inline-block; }
 }
+
+
+/** BRANDS (HOMEPAGE) */
+
+.brands{
+  text-align: center;
+  img {
+    width: 100px
+  }
+}
+
+
+/** THE MENU */
+.menu {
+  li {
+    list-style-type: none;
+    line-height: 18px;
+   
+  }
+}
+
+
+
+/** SIDE BOTTONE */
 
 .side_bottone {
   float: right;
@@ -79,34 +117,51 @@ header >h1 {
   color: $menu-color;
 }
 
+
+/** FOOTER */
+
+.footer_strip {
+  background: url('../images/footer_strip.png') repeat-x ;
+  background-size: 100px;
+  height: 20px;
+}
+
+
+
+
 footer {
   margin: 0;
   max-width: 100% !important;
-  background-color: #373938;
+  /* background-color: #373938; */
+  background-position: 0 20px;
   color: #6f6f6f;
   .moduletable .footer > .row {
     margin: 0 auto;
   }
   h4 {
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
-  p {
-  text-align: justify;
-  font-size: 0.6em;
+  li {
+  text-align: center;
+  font-size: 0.7em;
+  list-style-type: none;
+  line-height: 15px;
 }
 }
 
 .footer .row {
   margin-right: 0px;
   margin-left: 0px;
+  background-color: #373938;
 }
 
 @media only screen and (min-width: 768px) {
   .sidebar { display: block; }
   .menu_principale {
-    margin: 50px 0 0 auto;
+    margin: 30px 0 0 auto;
   }
+  footer li, footer h4 { text-align: justify; }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1700px ) {
