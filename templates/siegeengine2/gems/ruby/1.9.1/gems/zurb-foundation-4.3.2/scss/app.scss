@@ -74,14 +74,20 @@ section.row:first-of-type {
 .brands{
   text-align: center;
   img {
-    width: 100px
+    width: 100px;
+    margin: auto 10px;
   }
-}
+   img.bigger {
+      width: 168px;
+    margin: auto 10px;
+    }
+  }
 
 
 /** THE MENU */
 .menu h4 { font-family: 'BaskervilleClassicoW00- 867311';
   font-size: 2em;
+  i { font-family: 'BaskervilleClassico'; }
 }
 
 .menu h4.dolci { color: #A87B35; }
