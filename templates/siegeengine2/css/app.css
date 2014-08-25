@@ -1,6 +1,6 @@
 /* line 7, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .menu_principale {
-  margin: 100px 0 0 auto;
+  margin: 86px 0 0 auto;
   width: 80%;
 }
 /* line 10, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
@@ -76,8 +76,8 @@ section.row:first-of-type {
 /* line 56, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 #slogan {
   font-size: 1.5em;
-  width: 125%;
-  margin-left: -15%;
+  /* width: 125%; */
+  /* margin-left: -15%; */
   margin-bottom: 0px;
 }
 /* line 61, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
@@ -157,8 +157,10 @@ section.row:first-of-type {
 /* line 103, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 #credits {
   font-size: 0.5em;
-  margin: -15px 10px 0;
+  margin: -17px 10px 0;
   float: right;
+  line-height: 8px;
+  text-align: center;
 }
 
 /* line 109, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
