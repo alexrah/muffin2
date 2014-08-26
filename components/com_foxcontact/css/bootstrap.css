@@ -5,6 +5,7 @@ select your own custom css in "Advanced Options" of your forms */
 /* Form framework */
 div#foxcontainer<?php echo $uid ?>
 {
+  font-family: "GothamLight";
 	width: <?php $w = $this->Params->get("form__width", (object)array("text" => "", "select" => "auto")); echo $w->text . $w->select; ?>;
 	padding: 16px;
 	overflow: hidden; /* Fixes the link overhang */
