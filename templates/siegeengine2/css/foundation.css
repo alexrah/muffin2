@@ -749,6 +749,13 @@ select {
     }
 }
 
+@media only screen and (min-width: 1215px) {
+  hr {
+    width: 120%;
+    margin-left: -10%;
+  }
+}
+
 
 /* Foundation Visibility HTML Classes */
 /* line 11, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/foundation/components/_visibility.scss */
@@ -1755,12 +1762,21 @@ h6 {
 
 /* line 234, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 hr {
-  border: solid #dddddd;
+  border: dotted #373938;
   border-width: 1px 0 0;
   clear: both;
   margin: 1.25em 0 1.1875em;
   height: 0;
 }
+
+@media only screen and (min-width: 1215px) {
+  hr {
+    width: 120%;
+    margin-left: -10%;
+  }
+}
+
+
 
 /* Helpful Typography Defaults */
 /* line 244, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
@@ -4811,3 +4827,4 @@ a.th {
 .f-dropdown.large {
   max-width: 800px;
 }
+
