@@ -384,6 +384,7 @@ select {
     float: none !important;
   }
 }
+
 /* Styles for screens that are atleast 768px; */
 @media only screen and (min-width: 768px) {
   /* line 158, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/foundation/components/_grid.scss */
@@ -707,6 +708,48 @@ select {
     float: right !important;
   }
 }
+
+
+@media only screen and (min-width:768px ) and (max-width: 1370px){
+    .large-1 {
+      position: relative;
+      width: 16.66667%;
+    }
+    .row .large-offset-4{
+      position: relative;
+      margin-left: 16.66667%;
+      
+    }
+}
+
+.left-home{
+  max-width: 100%;
+  /* margin-left: -100%; */
+}
+
+.right-home{
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 1205px) and (max-width: 1425px ){
+  .left-home, .right-home {
+    max-width: 150%;
+  }
+  .left-home {
+    margin-left: -50%;
+  }
+}
+
+@media only screen and (min-width: 1426px){
+    .left-home, .right-home {
+      max-width: 200%;
+    }
+    .left-home {
+      margin-left: -100%;
+    }
+}
+
+
 /* Foundation Visibility HTML Classes */
 /* line 11, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/foundation/components/_visibility.scss */
 .show-for-small,
