@@ -1,7 +1,7 @@
 /* line 7, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .menu_principale {
   margin: 86px 0 0 auto;
-  width: 80%;
+  /* width: 80%; */
 }
 /* line 10, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .menu_principale ul li {
@@ -75,7 +75,8 @@ section.row:first-of-type {
 /* NB: SPOSTARE I TWIRL ADESSO IN LEFT & RIGHT ALL' INTERNO DI HOMEPAGE X ELIMINARE WIDTH > 100% E MARGIN NEGATIVI QUI SOTTO!!! */
 /* line 56, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 #slogan {
-  font-size: 1.5em;
+  font-family: 'BaskervilleClassico W00';
+  font-size: 2.5em;
   /* width: 125%; */
   /* margin-left: -15%; */
   margin-bottom: 0px;
@@ -103,12 +104,12 @@ section.row:first-of-type {
 }
 /* line 76, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .brands img {
-  width: 100px;
+  width: 70px;
   margin: auto 10px;
 }
 /* line 80, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
 .brands img.bigger {
-  width: 165px;
+  width: 100px;
   margin: auto 10px;
 }
 
@@ -258,7 +259,7 @@ footer li {
 
   /* line 183, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
   .menu_principale {
-    margin: 30px 0 0 auto;
+    margin: 10px 0 0 auto;
   }
 
   /* line 186, ../gems/ruby/1.9.1/gems/zurb-foundation-4.3.2/scss/app.scss */
